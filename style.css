@@ -23,7 +23,7 @@ body {
     background-color: #fff;
     margin: 50px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
@@ -111,7 +111,7 @@ body {
 }
 
 .contactInfo ul li a {
-    color: #fff;
+    color: rgb(71, 226, 40);
     text-decoration: none;
 }
 
@@ -119,4 +119,38 @@ body {
     position: relative;
     background-color: lightgray;
     padding: 40px;
+}
+
+.about {
+    margin-bottom: 50px;   
+}
+
+.about:last-child {
+    margin-top: 0;
+}
+
+.title2 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .course {
+    min-width: 200px;
+}
+
+.about .box .course h4 {
+    color: #848c90;
+    font-weight: 600;
+}
+
+.about .box .text ul li a {
+    text-decoration: none;
 }
