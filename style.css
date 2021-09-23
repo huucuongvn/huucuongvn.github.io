@@ -23,7 +23,7 @@ body {
     background-color: #fff;
     margin: 50px;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1.25fr 2.15fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
@@ -110,9 +110,18 @@ body {
     font-weight: 300;
 }
 
-.contactInfo ul li a {
+.contactInfo ul li a:link {
+    text-decoration:none;
+}
+
+.contactInfo ul li a:visited {
     color: rgb(71, 226, 40);
     text-decoration: none;
+}
+
+.contactInfo ul li a:hover {
+    text-decoration:underline;
+    color:#ff1100;
 }
 
 .container.right-side {
@@ -122,7 +131,7 @@ body {
 }
 
 .about {
-    margin-bottom: 50px;   
+    margin-bottom: 20px;   
 }
 
 .about:last-child {
@@ -151,7 +160,77 @@ body {
     font-weight: 600;
 }
 
-.about .box .text ul li a {
-    text-decoration: none;
+.about .box .text ul li {
+    padding-bottom: 5px;
+}
+
+.about .box .text ul li a:link {
+    text-decoration:none;
+}
+
+.about .box .text ul li a:visited {
     color: #03a9f4;
+    text-decoration: none;
+}
+
+.about .box .text ul li a:hover {
+    text-decoration:underline;
+    color:#ff1100;
+}
+
+.about1 .text2 ul li {
+    margin-left: 200px;
+    padding-bottom: 5px;
+}
+
+.about1 .text2 ul li a:link {
+    text-decoration:none;
+}
+
+.about1 .text2 ul li a:visited {
+    color: #03a9f4;
+    text-decoration: none;
+}
+
+.about1 .text2 ul li a:hover {
+    text-decoration:underline;
+    color:#ff1100;
+}
+
+.about1 {
+    margin-bottom: 20px;   
+}
+
+.skills {
+    margin-bottom: 20px;
+}
+
+.skills .box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .box h4 {
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 500;
+}
+
+.skills .box .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #cecccc;
+}
+
+.skills .box .percent div {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #1889bd;
 }
