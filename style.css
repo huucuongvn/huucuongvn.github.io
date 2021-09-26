@@ -56,13 +56,13 @@ body {
     overflow: hidden;
 }
 
-.profileText .img image {
+.profileText .img img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 130%;
+    object-fit:cover;
 }
 
 .profileText h2 {
@@ -184,6 +184,7 @@ body {
 .about .box .text2 ul li {
     margin-top: 20px;
 }
+
 /* .about1 .text2 ul li {
     margin-left: 200px;
     padding-bottom: 5px;
@@ -211,11 +212,24 @@ body {
 .skills {
     margin-bottom: 20px;
 }
+
+.skills .title2 {
+    margin-bottom: 20px;
+}
+
 .skills .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 20px;
+    grid-gap: 30px;
 }
+
+.skills .grid-container .image3 {
+    margin-left: 20px;
+}
+
+/* .skills .grid-container .image3  text {
+    text-align: left;
+} */
 /* .skills .box {
     position: relative;
     width: 100%;
