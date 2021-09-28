@@ -219,14 +219,21 @@ body {
 
 .skills .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 30px;
+    grid-template-columns: repeat(4, 0.5fr);
+    grid-gap: 20px;
 }
 
 .skills .grid-container .image3 {
     margin-left: 20px;
 }
 
+.skills .grid-container .image3 .text3 {
+    margin-left: 18px;
+}
+
+.skills .grid-container .image3 .text4 { 
+    margin-left: 10px;
+}
 /* .skills .grid-container .image3  text {
     text-align: left;
 } */
