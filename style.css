@@ -18,7 +18,7 @@ body {
 .container {
     position: relative;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1250px;
     min-height: 1000px;
     background-color: #fff;
     margin: 50px;
@@ -167,17 +167,17 @@ body {
 
 .about .box .text ul li a:link {
     text-decoration:none;
-    color: #03a9f4;
+    color: #004372;
 }
 
 .about .box .text ul li a:visited {
-    color: #03a9f4;
+    color: #004372;
     text-decoration: none;
 }
 
 .about .box .text ul li a:hover {
-    text-decoration:underline;
-    color:#ff1100;
+    text-decoration:none;
+    color:#03a9f4;
 }
 
 .about .box .text2 ul li {
@@ -232,6 +232,58 @@ body {
 
 .skills .grid-container .image3 .text4 { 
     margin-left: 10px;
+}
+
+.experience .name-company{
+    display: grid;
+    gap: 10px;
+    margin-left: 5px;
+}
+
+.experience .course {
+    margin: 12px 0 12px 5px;
+}
+
+.experience .name-company .position {
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.experience .name-company .text-2{
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.experience .name-company .text-2 a{
+    font-weight: 600;
+}
+
+.experience .name-company .text-2 a:link{
+    text-decoration: none;
+    color: #004372;
+}
+
+.experience .name-company .text-2 a:visited{
+    text-decoration: none;
+    color: #004372;
+}
+
+.experience .name-company .text-2 a:hover{
+    text-decoration: none;
+    color: #03a9f4;
+}
+
+.experience .name-company .text-2 li {
+    margin-bottom: 10px;
+}
+
+.experience .name-company .text-2 li .desc {
+    padding-left: 20px;
+}
+
+.experience .name-company .text-2 li .desc .description {
+    padding-right: 5px;
+    font-weight: 500;
 }
 /* .skills .grid-container .image3  text {
     text-align: left;
