@@ -239,6 +239,11 @@ body {
     color: #004372;
 }
 
+.disabled-link {
+    pointer-events: none;
+    cursor: default;
+}
+
 .experience .name-company .text-2 a:visited{
     text-decoration: none;
     color: #004372;
